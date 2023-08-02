@@ -1,5 +1,11 @@
 # Test Algorithm
 
+## Install deps
+
+```ssh
+npm install
+```
+
 ## Exercise 1 - Simple Calculator
 
 Create a calculator that takes two numbers and an operator (+, -, *, /) and returns the result of the operation.
