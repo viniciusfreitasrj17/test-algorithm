@@ -1,0 +1,25 @@
+{
+  "name": "test-algorithm",
+  "version": "1.0.0",
+  "description": "Test of Algorithm",
+  "main": "index.js",
+  "scripts": {
+    "ex1": "tsnd --transpile-only src/exercise-01/exercise-01.ts",
+    "ex2": "tsnd --transpile-only src/exercise-02/exercise-02.ts",
+    "ex3": "tsnd --transpile-only src/exercise-03/exercise-03.ts",
+    "ex4": "tsnd --transpile-only src/exercise-04/exercise-04.ts",
+    "ex5": "tsnd --transpile-only src/exercise-05/exercise-05.ts",
+    "ex6": "tsnd --transpile-only src/exercise-06/exercise-06.ts",
+    "ex7": "tsnd --transpile-only src/exercise-07/exercise-07.ts",
+    "ex8": "tsnd --transpile-only src/exercise-08/exercise-08.ts",
+		"build": "./node_modules/typescript/bin/tsc"
+  },
+  "keywords": [],
+  "author": "Marcos Vinicius <viniciusfreitasrj17@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.6"
+  }
+}
